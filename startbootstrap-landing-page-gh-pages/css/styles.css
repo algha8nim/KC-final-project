@@ -1,4 +1,15 @@
 @charset "UTF-8";
+
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
 /*!
 * Start Bootstrap - Landing Page v6.0.6 (https://startbootstrap.com/theme/landing-page)
 * Copyright 2013-2023 Start Bootstrap
@@ -4149,6 +4160,11 @@ textarea.form-control-lg {
 }
 
 .card {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
@@ -4165,7 +4181,7 @@ textarea.form-control-lg {
   --bs-card-color: ;
   --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
-  --bs-card-group-margin: 0.75rem;
+  
   position: relative;
   display: flex;
   flex-direction: column;
